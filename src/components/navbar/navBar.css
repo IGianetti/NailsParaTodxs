@@ -1,0 +1,49 @@
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #000508 !important;
+}
+
+/* NavBar.css */
+
+.appBar {
+  background-color: #2196f3;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navButtonsContainer {
+  display: flex;
+}
+
+.navButton {
+  color: #fff;
+  margin-left: 8px;
+}
+
+.menuButtonContainer {
+  display: none;
+}
+
+/* Media query para pantallas pequeñas (hasta 600px) */
+@media (max-width: 600px) {
+  .navButtonsContainer {
+    display: none;
+  }
+
+  .menuButtonContainer {
+    display: block;
+  }
+}
+
+/* Media query para pantallas grandes (más de 600px) */
+@media (min-width: 601px) {
+  .navButtonsContainer {
+    display: flex;
+  }
+
+  .menuButtonContainer {
+    display: none;
+  }
+}
