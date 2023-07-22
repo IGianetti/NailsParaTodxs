@@ -1,11 +1,12 @@
 import React from "react";
-import FormTurnos from "../../components/form/FormTurnos";
+
+import FormTurnosModal from "../../components/modal/FormTurnosModal";
 
 const Turnos = () => {
   return (
     <div>
       <h1>Turnos</h1>
-      <FormTurnos />
+      <FormTurnosModal />
     </div>
   );
 };

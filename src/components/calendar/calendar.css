@@ -1,7 +1,8 @@
 /* CSS para el componente Calendar */
 .calendar-container {
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 450px;
+  margin: 15px auto;
+
   text-align: center;
   border: 1px solid #ccc;
   border-radius: 4px;
